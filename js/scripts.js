@@ -28,3 +28,14 @@ function beep(array) {
   });
   return beepArray;
 }
+
+function boop(array) {
+  let boopArray = array.map(function(number) {
+    if (number.toString().includes(2)) {
+      return "Beep!";
+    }else {
+      return number;
+    }
+  });
+  return boopArray;
+}
