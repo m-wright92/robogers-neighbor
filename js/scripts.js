@@ -7,3 +7,12 @@ function range(input) {
   return numArray;
 }
 
+
+// business
+function function beep(input) {
+  if (input.toString().indexOf('1') > -1){
+      return true
+  }else {
+      return false
+  }
+}
