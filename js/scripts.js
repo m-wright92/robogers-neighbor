@@ -2,7 +2,6 @@
 let numArray = [];
 
 function range(input) {
-  // let numArray = [];
   for (let i=0; i <= input; i++) {
     numArray.push(i);
   }
@@ -37,20 +36,28 @@ function three(input) {
 
 function neighbor(input) {
   let neighArray = range(input);
-  let midArray = [];
-  let outputArray = "";
-  for (i=0; i < neighArray.length; i++) {
-    if (three(neighArray) === true) {
-      midArray.push(neighArray)
-      let outputArray = midArray.toString();
-      outputArray.replace("3", "sucess");
-    }
-    return outputArray;
-  }
+  let outputArray = [];
+  neighArray.forEach(function(number) {
+  	outputArray.push
+  });
 }
 
+// function neighbor(input) {
+//   let neighArray = range(input);
+//   // let midArray = [];
+//   let outputArray = "";
+//   for (i=0; i < neighArray.length; i++) {
+//     let midArray = neighArray.toString();
+//     if (three(neighArray) === true) {
+//       outputArray.push(neighArray)
+//       outputArray.replace("3", "sucess");
+//     }
+//     return outputArray;
+//   }
+// }
+
 // ui
-$(document).ready(function() {
+// $(document).ready(function() {
   // let numArray = [];
   
   // function range(input) {
@@ -72,4 +79,4 @@ $(document).ready(function() {
   // }
   // neighbor(range());
 
-})
+// })

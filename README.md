@@ -31,3 +31,11 @@ Describe: three()
 Test: "It will recognize a 3 in a multi-digit number"
 Code: three(8037)
 Expected output: True
+
+Describe: neighbor()
+
+Test: "It will display array from 0 to input number"
+Code: neighbor(3);
+Expected output: 0, 1, 2, 3
+
+Test: "It will replace 3 with 'Won't you be my neighbor?'"
