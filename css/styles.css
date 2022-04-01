@@ -13,5 +13,9 @@ h1, h2{
 }
 
 body {
-  background-color: rgb(251, 207, 139);
+  background-color: rgb(255, 220, 168);
+}
+
+input {
+  width: 40vw;
 }
