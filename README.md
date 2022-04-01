@@ -19,3 +19,9 @@ Expected output: True
 Test: "It will recognize a 1 in a multi-digit number"
 Code: beep(21);
 Expected output: True 
+
+Describe: boop()
+
+Test: "It will recognize a 2 in a multi-digit number"
+Code: boop(762);
+Expected output: True

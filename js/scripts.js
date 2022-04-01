@@ -9,8 +9,16 @@ function range(input) {
 
 
 // business
-function function beep(input) {
+function beep(input) {
   if (input.toString().indexOf('1') > -1){
+      return true
+  }else {
+      return false
+  }
+}
+
+function boop(input) {
+  if (input.toString().indexOf('2') > -1){
       return true
   }else {
       return false
