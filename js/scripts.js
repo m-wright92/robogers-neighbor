@@ -10,27 +10,7 @@ function range(input) {
   return numsOut;
 }
 
-// function beep(array) {
-//   let beepArray = array.map(function(number) {
-//     if (number.toString().includes(1)) {
-//       return "Beep!";
-//     }else {
-//       return number;
-//     }
-//   });
-//   return beepArray;
-// }
-
-// function boop(array) {
-//   let boopArray = array.map(function(number) {
-//     if (number.toString().includes(2)) {
-//       return "Boop!";
-//     }else {
-//       return number;
-//     }
-//   });
-//   return boopArray;
-// }
+// business
 
 function neighbor(array) {
   let output = array.map(function(number) {
@@ -46,3 +26,11 @@ function neighbor(array) {
   })
   return output;
 }
+
+// ui
+
+$(document).ready(function() {
+
+  // let inputNum;
+  // let finalArray;
+})
