@@ -1,0 +1,17 @@
+.jumbotron {
+  text-align: center;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  background-image: url("../img/town.jpeg");
+  background-color: blanchedalmond;
+}
+
+h1, h2{
+  text-shadow: -3px 3px 5px rgb(0, 0, 0);
+  color: rgb(214, 213, 143);
+	font-size: 50px;
+}
+
+body {
+  background-color: rgb(251, 207, 139);
+}
