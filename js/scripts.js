@@ -1,6 +1,8 @@
 // utility
+let numArray = [];
+
 function range(input) {
-  let numArray = [];
+  // let numArray = [];
   for (let i=0; i <= input; i++) {
     numArray.push(i);
   }
@@ -32,3 +34,42 @@ function three(input) {
       return false
   }
 }
+
+function neighbor(input) {
+  let neighArray = range(input);
+  let midArray = [];
+  let outputArray = "";
+  for (i=0; i < neighArray.length; i++) {
+    if (three(neighArray) === true) {
+      midArray.push(neighArray)
+      let outputArray = midArray.toString();
+      outputArray.replace("3", "sucess");
+    }
+    return outputArray;
+  }
+}
+
+// ui
+$(document).ready(function() {
+  // let numArray = [];
+  
+  // function range(input) {
+  //   for (let i=0; i <= input; i++) {
+  //     numArray.push(i);
+  //   }
+  //   return numArray;
+  // };
+
+  // function neighbor(input) {
+  //   let outputArray = []
+  //   for (i=0; i < input; i++) {
+  //     if (three === true) {
+  //       range(input);
+  //       outputArray.push(numArray);
+  //     }
+  //     return outputArray;
+  //   }
+  // }
+  // neighbor(range());
+
+})
