@@ -10,18 +10,24 @@ Code: range(5);
 Expected output: [0, 1, 2, 3, 4, 5]
 
 <!-- business -->
-Describe: beep()
+Describe: one()
 
 Test: "It wil recognize a 1"
-Code: beep(1);
+Code: one(1);
 Expected output: True
 
 Test: "It will recognize a 1 in a multi-digit number"
-Code: beep(21);
+Code: one(21);
 Expected output: True 
 
-Describe: boop()
+Describe: two()
 
 Test: "It will recognize a 2 in a multi-digit number"
-Code: boop(762);
+Code: two(762);
+Expected output: True
+
+Describe: three()
+
+Test: "It will recognize a 3 in a multi-digit number"
+Code: three(8037)
 Expected output: True

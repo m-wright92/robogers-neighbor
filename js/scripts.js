@@ -9,7 +9,7 @@ function range(input) {
 
 
 // business
-function beep(input) {
+function one(input) {
   if (input.toString().indexOf('1') > -1){
       return true
   }else {
@@ -17,8 +17,16 @@ function beep(input) {
   }
 }
 
-function boop(input) {
+function two(input) {
   if (input.toString().indexOf('2') > -1){
+      return true
+  }else {
+      return false
+  }
+}
+
+function three(input) {
+  if (input.toString().indexOf('3') > -1){
       return true
   }else {
       return false
