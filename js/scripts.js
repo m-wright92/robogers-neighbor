@@ -29,8 +29,13 @@ function neighbor(array) {
 
 // ui
 
-$(document).ready(function() {
+$(document).ready(function(event) {
+  event.preventDefault();
+  let inputNum = $("#fav-num").val();
+  let finalArray;
 
-  // let inputNum;
-  // let finalArray;
+  if (inputNum === "") {
+    $("#results").toggle("show");
+    $("#results").text("I guess you don't want to play :(");
+  }
 })

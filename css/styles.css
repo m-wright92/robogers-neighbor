@@ -19,3 +19,11 @@ body {
 input {
   width: 40vw;
 }
+
+ul {
+  display: none;
+}
+
+.show {
+  display: show;
+}
