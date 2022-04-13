@@ -34,16 +34,14 @@ $(document).ready(function() {
   $("#user-sub").submit(function(event) {
     event.preventDefault();
     let inputNum = $("#fav-num").val();
-    let finalArray;
-    let finOutput;
+    let finOutput = neighbor(range(inputNum)).toString();
 
     if (inputNum === "0") {
       $("#results").toggleClass("hidden");
-      $("#results").text("<li>" + "I guess you don't want to play :(" + "</li>");
+      $("#results").text("I guess you don't want to play");
     } else {
-      finalArray = range(inputNum);
-      finOutput = neighbor(inputNum);
-    }
-    $("#result").text("<li>" + finOutput)
+      $("#results").removeClass("hidden");
+      $("#results").text(finOutput)
+    } 
   })
 })
